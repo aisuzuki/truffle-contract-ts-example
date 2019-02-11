@@ -1,0 +1,40 @@
+{
+    "name": "truffle-contract-ts-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "test",
+        "build": "npm run build-solidity",
+        "build-ts": "tsc",
+        "build-solidity": "truffle compile"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aisuzuki/truffle-contract-ts-example.git"
+    },
+    "keywords": [
+        "Truffle",
+        "Solidity",
+        "truffle-contract",
+        "truffle-artifactor"
+    ],
+    "author": "Ai Suzuki",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/aisuzuki/truffle-contract-ts-example/issues"
+    },
+    "homepage": "https://github.com/aisuzuki/truffle-contract-ts-example#readme",
+    "dependencies": {
+        "ethlint": "^1.2.3",
+        "ganache-cli": "^6.3.0",
+        "truffle": "^5.0.3",
+        "truffle-artifactor": "^4.0.3",
+        "truffle-contract": "^4.0.4",
+        "ts-node": "^8.0.2",
+        "typescript": "^3.3.3"
+    }
+}
